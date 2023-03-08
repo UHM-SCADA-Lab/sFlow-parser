@@ -25,7 +25,7 @@ while True:
     for i in range(len(data)):
         if i == 0:
             version1 = datashift.datashift(data, i, len(version))
-            print('Datagram Version: ', version1)
+            print('\nDatagram Version: ', version1)
         if i == 4: 
             address_type1 = datashift.datashift(data, i, len(address_type))
             print('Agent Address Type: ', address_type1)
